@@ -11,18 +11,23 @@ public class ValorTotalQtde {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 
-        System.out.println("Qual o valor do produto: ");
+        System.out.print("Qual o valor do produto: ");
         Double valorProduto = teclado.nextDouble();
 
-        System.out.println("Qual a quantidade: ");
+        System.out.print("Qual a quantidade: ");
         Integer quantidade = teclado.nextInt();
 
         Double subTotal = valorProduto * quantidade;
 
+        Double desconto = 0.0;
+
         if (quantidade >= 10) {
-            Double desconto = 10.0;
+            desconto = 0.10;
         }
 
-        //Double totalComDesconto = subTotal +;
+        Double descontoDoProduto = subTotal * desconto;
+
+        Double valorFinal = subTotal - descontoDoProduto;
+        System.out.println("Total a pagar: " + valorFinal);
     }
 }
