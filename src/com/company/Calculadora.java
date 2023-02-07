@@ -26,9 +26,15 @@ public class Calculadora {
             resultado = primeiroNumero + segundoNumero;
         } if (operacao == 2) {
             resultado = primeiroNumero - segundoNumero;
+<<<<<<< HEAD
         } if (operacao == 3) {
             resultado = primeiroNumero * segundoNumero;
         } if (operacao == 4) {
+=======
+        } if (resultado == 3) {
+            resultado = primeiroNumero * segundoNumero;
+        } if (resultado == 4) {
+>>>>>>> 65d813effeea28355dbbb0fd7898e4bb80b59e52
             resultado = primeiroNumero / segundoNumero;
         }
         System.out.println("Resultado: " + resultado);
