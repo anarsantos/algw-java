@@ -18,13 +18,10 @@ public class TarefasDoDia {
             tarefas[i] = teclado.nextLine();
         }
 
-        //As 5 tarefas armazenadas são:
+        //Exibição das 5 tarefas
         System.out.println("As tarefas são: ");
         for (int i = 1; i < tarefas.length; i++) {
             System.out.println(i + ": " + tarefas[i]);
         }
-
-
-
     }
 }
