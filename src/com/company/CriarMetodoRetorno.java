@@ -13,7 +13,7 @@ public class CriarMetodoRetorno {
         imprimir("Escolha dentre os cursos abaixo: ");
 
         //Método itararExibirPosicoesDoVetorString
-        itararExibirPosicoesDoVetorString(cursos);
+        iterarExibirPosicoesDoVetorString(cursos);
 
         //Método receberNumeroInteiroDoUsuario
         Integer posicaoCursoEscolhido = receberNumeroInteiroDoUsuario("O curso que você deseja é o: ", teclado);
@@ -31,7 +31,7 @@ public class CriarMetodoRetorno {
 
         imprimir("Escolha dentre as formas de pagamento abaixo: ");
 
-        itararExibirPosicoesDoVetorString(formasPagamento);
+        iterarExibirPosicoesDoVetorString(formasPagamento);
 
         Integer posicaoFormaPagamentoEscolhida = receberNumeroInteiroDoUsuario("Sua forma de pagamento escolhida é: ", teclado);
 
@@ -58,7 +58,7 @@ public class CriarMetodoRetorno {
         Boolean valida = posicao >= 0 && posicao < vetor.length;
         return valida;
     }
-    static void itararExibirPosicoesDoVetorString(String[] vetor) {
+    static void iterarExibirPosicoesDoVetorString(String[] vetor) {
         for(int i = 0; i < vetor.length; i++) {
             imprimir("[" + i + "] " + vetor[i]);
         }

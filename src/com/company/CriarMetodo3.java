@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Scanner;
 
-//Colocar o método imprimir naslinhas 15, 35 e 57; e o método imprimirContinuarMesmaLinha 22 e 42
+//Colocar o método imprimir nas linhas 15, 35 e 57; e o método imprimirContinuarMesmaLinha 22 e 42
 
 public class CriarMetodo3 {
     public static void main(String[] args) {
@@ -17,7 +17,7 @@ public class CriarMetodo3 {
         /*for(int i = 0; i < cursos.length; i++) {
             System.out.println("[" + i + "] " + cursos[i]);
         }*/
-        itararExibirPosicoesDoVetorString(cursos);
+        iterarExibirPosicoesDoVetorString(cursos);
 
         imprimirContinuarMesmaLinha("O curso que você deseja é o: ");
         Integer posicaoCursoEscolhido = teclado.nextInt();
@@ -37,7 +37,7 @@ public class CriarMetodo3 {
         /*for(int i = 0; i < formasPagamento.length; i++) {
             System.out.println("[" + i + "] " + formasPagamento[i]);
         }*/
-        itararExibirPosicoesDoVetorString(formasPagamento);
+        iterarExibirPosicoesDoVetorString(formasPagamento);
 
         imprimirContinuarMesmaLinha("Sua forma de pagamento escolhida é: ");
         Integer posicaoFormaPagamentoEscolhida = teclado.nextInt();
@@ -58,7 +58,7 @@ public class CriarMetodo3 {
 
     }
 
-    static void itararExibirPosicoesDoVetorString(String[] vetor) {
+    static void iterarExibirPosicoesDoVetorString(String[] vetor) {
         for(int i = 0; i < vetor.length; i++) {
             System.out.println("[" + i + "] " + vetor[i]);
         }

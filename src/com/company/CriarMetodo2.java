@@ -17,7 +17,7 @@ public class CriarMetodo2 {
         /*for(int i = 0; i < cursos.length; i++) {
             System.out.println("[" + i + "] " + cursos[i]);
         }*/
-        itararExibirPosicoesDoVetorString(cursos);
+        iterarExibirPosicoesDoVetorString(cursos);
 
         System.out.print("O curso que você deseja é o: ");
         Integer posicaoCursoEscolhido = teclado.nextInt();
@@ -37,7 +37,7 @@ public class CriarMetodo2 {
         /*for(int i = 0; i < formasPagamento.length; i++) {
             System.out.println("[" + i + "] " + formasPagamento[i]);
         }*/
-        itararExibirPosicoesDoVetorString(formasPagamento);
+        iterarExibirPosicoesDoVetorString(formasPagamento);
 
         System.out.print("Sua forma de pagamento escolhida é: ");
         Integer posicaoFormaPagamentoEscolhida = teclado.nextInt();
@@ -58,7 +58,7 @@ public class CriarMetodo2 {
 
     }
 
-    static void itararExibirPosicoesDoVetorString(String[] vetor) {
+    static void iterarExibirPosicoesDoVetorString(String[] vetor) {
         for(int i = 0; i < vetor.length; i++) {
             System.out.println("[" + i + "] " + vetor[i]);
         }
