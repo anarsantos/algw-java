@@ -59,7 +59,7 @@ public class CriarMetodoRetornoRecursividade {
         Boolean valida = posicao >= 0 && posicao < vetor.length;
         return valida;
     }
-    // Remover o for deste e para para o método abaixo
+    // Remover o for deste e colocar no método abaixo
     static void iterarExibirPosicoesDoVetorString(String[] vetor) {
         /*for(int i = 0; i < vetor.length; i++) {
             imprimir("[" + i + "] " + vetor[i]);
