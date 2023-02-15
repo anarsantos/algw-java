@@ -1,4 +1,4 @@
-package com.metodoinstancia;
+package com.poo.metodoinstancia;
 
 public class MetodoInstancia {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.metodoinstancia;
+package com.poo.metodoinstancia;
 
 public class Cliente {
     //Variáveis de instância - é usada através de uma variável declara em outro lugar (Classe MetodoInstancia)
